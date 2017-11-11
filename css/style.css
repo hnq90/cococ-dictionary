@@ -1,0 +1,118 @@
+.corom-scroll::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+.corom-scroll::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background: #e3e3e3;
+}
+
+.corom-scroll::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #959595;
+}
+.corom-scroll::-webkit-scrollbar-thumb:active {
+	background: #888887;
+}
+
+.corom-trigger, .corom-popup {
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	z-index: 2147483647;
+	text-align: left;
+}
+
+.corom-trigger[hidden], .corom-popup[hidden] {
+	display: none;
+}
+
+.corom-trigger {
+	background: no-repeat 2px 50% url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAMAAACXmSduAAAAq1BMVEUAAADk5OTk5OTt7e2ysrIAAADt7e3m5ubo6Ojt7e3Pz8/R0dG/v7/t7e3h4eHt7e0AAADt7e3t7e0AAAAAAADt7e0AAADV1dXt7e0AAAClpaU4ODjt7e3IyMjJycnt7e2ampoAAADt7e3Q0NAAAAAAAADt7e3m5ubExMQAAAAAAACrq6vOzs4AAADr6+uysrIAAADt7e29vb2MjIwAAADt7e0AAAAAAADt7e1vZVt7AAAAOHRSTlM+3tTDHAYb7nEMho9dV5tCJflmNR5aI8yuA5ImcnmDe4oKFSkaQtvrshsXbGtI+58neKp/SksWAGT0E1UAAABuSURBVHheXcdFEsJAFEXRj7u7u0uQTu7b/8qgSVUGnNkxmC5Y7+WFYPSkOZuD/zvCGi1JM1a7IH6tLg3GE3jGpyq9Ot1R8vD7B/y91B5Kx2tyipLul9PvhXQmT1la3s7+XipLJXBbDCLnWY5mHz5P+h0/JbLEuwAAAABJRU5ErkJggg==);
+	width: 17px;
+	min-height: 11px;
+  pointer-events: all;
+}
+
+.corom-trigger.shown {
+	/*-webkit-transform: rotate(90deg); */
+}
+
+.corom-popup {
+	font: normal 12px/16px Arial, sans-serif;
+	padding: 2px 3px 2px 10px;
+	margin-left: -11px;
+	color: #3d3d3d;
+	background: #f4f4f4;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .50);
+	border-radius: 2px;
+	outline: 1px solid #b0b0b0;
+  pointer-events: all;
+  display: inline-block;
+  position: relative;
+}
+
+.corom-word {
+	display: inline-block;
+}
+
+.corom-scroll, .corom-meaning, .corom-part, .corom-example, .corom-phrase {
+	display: block;
+}
+
+.corom-scroll {
+	box-sizing: border-box;
+	padding: 3px 10px 8px 0;
+	max-width: 320px;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.corom-word {
+	padding-top: 10px;
+}
+
+.corom-word:first-child {
+	padding-top: 0
+}
+
+.corom-ref {
+	white-space: nowrap;
+}
+
+.corom-example {
+	display: none
+}
+
+.corom-meaning {
+	padding-left: 10px;
+}
+
+.corom-part {
+	color: #a8a8a8;
+	margin-top: 15px;
+}
+
+.corom-word + .corom-part,
+.corom-ref + .corom-part {
+	margin-top: 0
+}
+
+.corom-phrase {
+	font-style: italic
+}
+
+.corom-word {
+	font-weight: bold
+}
+
+.corom-meaning:before {
+	content: '–';
+	margin-left: -10px;
+}
+
+.corom-transcript {
+	font-weight: normal;
+	font-family: monospace;
+}

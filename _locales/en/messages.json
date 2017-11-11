@@ -1,0 +1,42 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "English-Vietnamese dictionary"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Cốc Cốc Dictionary"
+   },
+   "banner_text": {
+      "description": "Text content for banner",
+      "message": "Look up any English word instantly on any website, just double-click on the word you need!"
+   },
+   "context_menu_translate": {
+      "description": "Context menu template to prompt translation",
+      "message": "Translate: %s"
+   },
+   "i_know_it": {
+      "description": "Text content for button on banner",
+      "message": "I know it"
+   },
+   "options_double_click_input_translate": {
+      "description": "Options' enable translate on double click in input/textarea forms label",
+      "message": "by double click"
+   },
+   "options_double_click_translate": {
+      "description": "Options' enable translate on double click label",
+      "message": "Translate by double click"
+   },
+   "options_input_translate": {
+      "description": "Options' enable translate in input/textarea forms label",
+      "message": "Translate in input/textarea forms"
+   },
+   "options_title": {
+      "description": "Options page title",
+      "message": "En-Vn dictionary options"
+   },
+   "show_me_how": {
+      "description": "Text content for button on banner",
+      "message": "Show me how"
+   }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>En-Vn dictionary options</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="options"></div>
+	<script type="text/mustache-template" id="options-template">
+		<h1>{{i18n_options_title}}</h1>
+		<div class="form">
+			<label class="checkbox">
+				<input type="checkbox" value="" id="double-click-translate" {{#isDoubleClickTranslateEnabled}}checked{{/isDoubleClickTranslateEnabled}}>
+				{{i18n_double_click_translate}}
+			</label>
+			<br>
+			<label class="checkbox">
+				<input type="checkbox" value="" id="input-translate" {{#isInInputTranslateEnabled}}checked{{/isInInputTranslateEnabled}}>
+				{{i18n_input_translate}}
+			</label>
+			<blockquote id="input-translate-details" {{^isInInputTranslateEnabled}}class="disabled"{{/isInInputTranslateEnabled}}>
+				<label class="checkbox">
+					<input type="checkbox" value="" id="double-click-input-translate" {{#isDoubleClickInInputTranslateEnabled}}checked{{/isDoubleClickInInputTranslateEnabled}}>
+					{{i18n_double_click_input_translate}}
+				</label>
+				<div class="overlay"></div>
+			</blockquote>
+		</div>
+		<a href="#" id="close-button">×</a>
+	</script>
+
+	<script src="scripts/vendor.js"></script>
+
+	<script src="scripts/options.js"></script>
+
+</body>
+</html>

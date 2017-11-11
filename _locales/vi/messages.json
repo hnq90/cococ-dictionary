@@ -1,0 +1,42 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Từ điển Anh-Việt"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Cốc Cốc Từ Điển"
+   },
+   "banner_text": {
+      "description": "Text content for banner",
+      "message": "Tra từ điển Anh - Việt ngay trên website, chỉ cần click đúp chuột vào từ cần tra!"
+   },
+   "context_menu_translate": {
+      "description": "Context menu template to prompt translation",
+      "message": "Dịch: %s"
+   },
+   "i_know_it": {
+      "description": "Text content for button on banner",
+      "message": "Tôi đã hiểu"
+   },
+   "options_double_click_input_translate": {
+      "description": "Options' enable translate on double click in input/textarea forms label",
+      "message": "Nháy đúp để dịch từ sang tiếng Việt"
+   },
+   "options_double_click_translate": {
+      "description": "Options' enable translate on double click label",
+      "message": "Nháy đúp để dịch từ sang tiếng Việt"
+   },
+   "options_input_translate": {
+      "description": "Options' enable translate in input/textarea forms label",
+      "message": "Nhập vào từ cần dịch"
+   },
+   "options_title": {
+      "description": "Options page title",
+      "message": "Tùy chọn từ điển Anh-Việt"
+   },
+   "show_me_how": {
+      "description": "Text content for button on banner",
+      "message": "Xem hướng dẫn"
+   }
+}
